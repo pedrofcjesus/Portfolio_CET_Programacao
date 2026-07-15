@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <title>Ex_1_Test_noSQL</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div class="fireflies">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="container">
+        <div class="tile">
+            <div class="header">
+                <h1>Firebase App</h1>
+            </div>
+        </div>
+
+
+
+        <div class="tile">
+            <div class="form">
+                <h3>ADICIONAR PRODUTO</h3>
+
+                <div class="form-group">
+                    <label for="nome">Nome do Produto</label>
+                    <input type="text" id="nome" placeholder="Ex: Pão">
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="preco">Preço</label>
+                        <input type="number" id="preco" step="0.01" placeholder="0.00">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" id="quantidade" placeholder="0">
+                    </div>
+
+                </div>
+                <button id="guardar">Guardar</button>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Editar</th>
+                            <th>Apagar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela">
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <footer>
+            <p>Pedro Jesus &copy; 2026</p>
+        </footer>
+    </div>
+
+    <script type="module" src="./scripts/produtos.js"></script>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
