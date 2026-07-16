@@ -1,6 +1,6 @@
 # C Programming Exercises
 
-This folder contains practical exercises developed to build a strong foundation in procedural programming, algorithmic logic, and low-level memory management using the C language. 
+This folder contains practical exercises developed to build a strong foundation in procedural programming, algorithmic logic, and low-level memory management using the C language.
 
 The exercises are divided into specific academic units, showing a clear progression from basic data manipulation to advanced memory and file management.
 
